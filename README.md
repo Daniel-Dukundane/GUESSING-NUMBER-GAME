@@ -1,1 +1,5 @@
 # GAME FOR GUESSING A NUMBER
+
+# CODED FULLY IN HTML,CSS AND JS
+
+<img src="url/C:\Users\dukun\Documents\JS TUTORIALS\JS TEST\DOM\Guess My Number\GUESSMYNUMGAME.PNG">
