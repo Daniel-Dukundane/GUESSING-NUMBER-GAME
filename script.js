@@ -1,6 +1,9 @@
 // CODED BY DANIEL DUKUNDANE
 'use strict';
-const secretNumber = Math.trunc(Math.random() * 20) + 1;
+function generateAnotherNumber(){
+  return Math.trunc(Math.random() * 20) + 1;
+}
+let secretNumber = generateAnotherNumber();
 
 function displayMessage(message) {
   document.querySelector('.message').textContent = message;
@@ -43,6 +46,7 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').textContent = '?';
   document.querySelector('.number').style.width = '15rem';
   score = 20;
+  secretNumber = generateAnotherNumber();
   document.querySelector('.score').textContent = score;
   displayMessage('Start guessing...');
   document.querySelector('body').style.backgroundColor = '#222';
